@@ -1,0 +1,30 @@
+.clients {
+  &__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  &__list-icon {
+    fill: $gray-color;
+    width: 100px;
+    height: 100px;
+    padding: 5px 30px;
+    border: 1px solid $gray-color;
+    &:hover {
+      fill: $main-color;
+    }
+  }
+  &-list-item:hover {
+    color: $main-color;
+  }
+}

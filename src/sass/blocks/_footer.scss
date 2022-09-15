@@ -1,0 +1,14 @@
+.footer {
+  padding: 60px 0;
+  background-color: $footer-color;
+  &__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  &__logo-blue {
+    color: $main-color;
+  }
+}

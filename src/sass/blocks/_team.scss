@@ -1,0 +1,71 @@
+.team {
+  padding: 94px 0;
+  background: $icon-bgc;
+  &__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 50px;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__list-img {
+    width: 270px;
+    height: 260px;
+    left: 215px;
+  }
+  &__subtitle {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $title-color;
+    margin-top: 30px;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: $gray-color;
+    margin-bottom: 30px;
+  }
+  &__wrapper-icon {
+    fill: $icon-color;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  &__wrapper-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    &:hover {
+      background-color: $main-color;
+      border-radius: 50%;
+    }
+  }
+  &__wrapper-link:hover &__wrapper-icon {
+    fill: $white-color;
+  }
+}

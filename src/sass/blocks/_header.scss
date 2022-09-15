@@ -1,0 +1,70 @@
+.header {
+  padding: 24px 0;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+  }
+  &__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: $logo-color;
+  }
+  &__Web {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: $main-color;
+  }
+  &__list-link {
+    // position: relative;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $title-color;
+    &:hover {
+      color: $main-color;
+    }
+  }
+  &__contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 30px;
+  }
+  &__tel {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: $gray-color;
+    &:hover {
+      color: $main-color;
+    }
+    // &__list-item {
+    //   position: relative;
+    // }
+  }
+  .current {
+    position: relative;
+  }
+  .current::after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-color: $main-color;
+    bottom: -24px;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    color: $main-color;
+  }
+}

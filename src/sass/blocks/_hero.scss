@@ -1,0 +1,42 @@
+.hero {
+  &__wrapper {
+    padding: 200px 0;
+    background: url("../../image/bg.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+  }
+  &__btn {
+    display: block;
+    border: none;
+    padding: 10px 32px;
+    margin: 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: $main-color;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    &:hover {
+      box-shadow: 0px 2px 4px rgba(9, 183, 236, 0.15);
+    }
+  }
+}
+.overlay {
+  background: rgba(47, 48, 58, 0.8);
+}
